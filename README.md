@@ -2,12 +2,13 @@
 Springboot app to publish/consume xml message to IBM MQ server (Marshalling/Unmarshalling using Jaxb)
 
 
-#To publish message to IBM MQ 
+# To publish message to IBM MQ 
 
 Use Postman to post this message.
 POST: http://localhost:8989/api/user
 
 Message:
+
 {
 	"user": {
 		"userId": "1",
